@@ -1,0 +1,27 @@
+button{background-color: green;
+        border: 1px solid green;
+        border-radius: 10px 10px ;
+        width: 30%;
+        /*display: block;*/
+        font-size: 20px;
+        margin: 15px;
+        padding: 5px;
+        -webkit-box-shadow: 17px 15px 29px 7px rgba(17,64,0,1);
+        -moz-box-shadow: 17px 15px 29px 7px rgba(17,64,0,1);
+        box-shadow: 17px 15px 29px 7px rgba(17,64,0,1);}
+
+button:hover{background-color: rgb(122, 197, 122);}
+
+div.contenedor{ border: 1px solid green;
+            padding:20px; 
+            margin: 20%;
+            text-align: center;        
+            align-items: center;
+            flex-wrap: wrap;}
+
+a{text-decoration: none;
+    color: white;
+    font-family: Verdana; }
+
+@media (max-width:850px){button{width: 80%;
+        line-height: 50px; }}
