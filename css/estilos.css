@@ -2,7 +2,7 @@ button{background-color: green;
         border: 1px solid green;
         border-radius: 10px 10px ;
         width: 30%;
-        /*display: block;*/
+        display: block;
         font-size: 20px;
         margin: 15px;
         padding: 5px;
@@ -15,7 +15,7 @@ button:hover{background-color: rgb(122, 197, 122);}
 div.contenedor{ border: 1px solid green;
             padding:20px; 
             margin: 20%;
-            text-align: center;        
+            text-align: center;       
             justify-content: center;
             flex-wrap: wrap;}
 
